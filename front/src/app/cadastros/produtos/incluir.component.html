@@ -1,0 +1,20 @@
+<div class="tituloListas">
+    <h1>Novo produto</h1>
+  </div>
+  <form>
+    <mat-card>
+      <mat-card-content>
+        <mat-form-field>
+          <input matInput type="text" placeholder="Nome" name="nome" [(ngModel)]="produto.nome">
+        </mat-form-field>
+        <mat-form-field>
+          <input matInput type="text" placeholder="Descrição" name="descricao" [(ngModel)]="produto.desc">
+        </mat-form-field>
+      </mat-card-content>
+      <mat-card-actions>
+        <button mat-raised-button class="btnMyFood" (click)="salvarProduto()" routerLink="/cadastros" color="primary">Salvar</button>
+        <button mat-raised-button class="btnMyFood" routerLink="/cadastros">Cancelar</button>
+      </mat-card-actions>
+    </mat-card>
+  </form>
+  

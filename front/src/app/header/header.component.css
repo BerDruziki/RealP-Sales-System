@@ -1,0 +1,12 @@
+body > app-root > app-header {
+    background-color: brown !important;
+}
+
+h1 {
+    background-color: rgb(0, 174, 255);
+    font-size: 55px;
+    text-align: center;
+    padding: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0px 0px 0px;
+}

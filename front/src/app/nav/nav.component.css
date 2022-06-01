@@ -1,0 +1,17 @@
+.navbar 
+{
+    justify-content: space-between;
+    height: 70px;
+}
+span 
+{
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+.hover:hover 
+{
+    background-color: rgba(0, 0, 0, 0.123);
+    transition: 0.5s;
+    border-radius: 5px;
+}

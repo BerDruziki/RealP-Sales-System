@@ -1,0 +1,39 @@
+
+.content {
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
+  margin: 0px auto 30px auto;
+  justify-content: space-around;
+}
+
+mat-card
+{
+  width: auto;
+}
+
+h1 {
+  padding: 10px;
+}
+
+.alinhamento {
+  /* box-sizing: border-box;
+  margin: 0px -16px -16px 0px; */
+}
+
+.negrito {
+  font-weight: bold;
+}
+
+button {
+  display: block;
+  margin: 0px auto 0px auto;
+  background-color: #4b60d6;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+  margin: 0px auto 0px auto;
+}
